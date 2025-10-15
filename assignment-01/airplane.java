@@ -6,7 +6,7 @@ public class airplane {
     public static void main(String[] args) {
         int[][] arr = new int[5][5];
         Scanner sc = new Scanner(System.in);
-        String check = "y";
+        String check = "y"; 
 
         do {
             System.out.println("\tA\tB\tC\tD\tE");
