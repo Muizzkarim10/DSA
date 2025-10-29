@@ -50,10 +50,12 @@ class Node {
 
         Node temp = head;
 
-        while (temp.next != null) {
-            if (count == choice)
-                break;
+        while (temp != null) {
             count++;
+            if (count >= choice){
+                System.out.println(temp.data);
+            }
+
             temp = temp.next;
         }
 
